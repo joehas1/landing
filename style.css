@@ -1,0 +1,111 @@
+/* style.css */
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background: rgb(245,245,245);
+  font-size: 15px;
+  font-family: Arial;
+}
+a {
+  color: yellow;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+#banner{
+  text-align: center;
+  background-image: url("https://unsplash.it/1300/600?random");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+
+
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
+
+
+.cards{
+  width: 20%;
+  border-radius: 5px;
+  margin: 40px;
+  box-shadow: 2px 2px 10px black;
+  display: inline-block;
+}
+
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 5px;
+}
+
+.title{
+  text-align: center;
+  padding: 2px;
+}
+
+.des{
+  text-align: center;
+  padding: 2px;
+}
+
+button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #4267B2;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: white;
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item {
+  flex: 0 33%;
+  height: 100px;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+}
+
+
+
